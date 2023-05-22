@@ -1,0 +1,19 @@
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  /* top: 120px; */
+  background-color: #bee7f3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  div {
+    padding: 10px;
+    font-size: 18px;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(149, 210, 234);
+    }
+  }
+}
